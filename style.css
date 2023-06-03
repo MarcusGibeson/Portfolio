@@ -1,0 +1,204 @@
+* {
+    font-family: serif;
+    line-height: 1.614em;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    font-size: 20px;
+    margin-top: 3em;
+}
+body {
+    background-image: url(images/background-image.jpg);
+}
+
+h1 {
+    color: red;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dotted black;
+}
+
+h2, h3, h4 {
+    color: red;
+    text-align: center;
+}
+header{
+    margin: 0 auto;
+    max-width: 800px;
+}
+header{
+    padding: 10px, 0;
+    text-align: center;
+
+}
+header h1{
+    font-size: 3em;
+}
+header span {
+    font-size: 1.25em;
+    color: darkred;
+}
+nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background: #333;
+
+}
+nav a{
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #fff
+}
+nav a:hover{
+    background-color: #666
+}
+
+#mainbody {
+    display: flex;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border: none;
+
+}
+
+
+#aboutmetable {
+    display: flex;
+    width: 100%;
+    border: none;
+    background-color: none;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-grow: 100%;
+    font-size: larger;
+    gap: 2px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+#aboutmetable section{
+    margin: 1em 0;
+    padding-top: 20px;
+    min-height: 20em;
+}
+
+#aboutmea {
+    max-width: 500px;
+    max-height: 300px;
+    padding: .5em;
+}
+
+#aboutmetable img {
+        padding-top: 0px;
+}
+
+#statsplit {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    padding: 0;
+    border: none;
+}
+h4 {
+    font-style: normal;
+}
+
+section > p {
+    margin: 1em 0;
+}
+section ul {
+    padding-left: 1.5em;
+}
+#projecttable{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    border: solid black;
+    grid-row: solid black;
+    background-color: black; 
+    position: relative;
+    line-height:100px; vertical-align:middle;
+    text-align: center;
+}
+
+#projecttable a {
+    color: red;
+}
+#projecttable h2{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family:"Impact";
+    font-size: 50px;
+}
+
+#projecttable article{
+    background: #ccc;
+    padding: 1em;
+    ;
+}
+#projecttable img{
+    width: 10em;
+    padding: 0 2em;
+    height: 200;
+    width: 200;
+}
+
+
+footer {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: none;
+    color: black ;
+    padding: 0 0;
+    text-align: center;
+
+}
+footer h3 {
+    color: red;
+}
+
+footer a:visited{
+    color:blue
+}
+
+footer a {
+    color: blue;
+}
+footer span{
+    text-align: center;
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+#copyright {
+    text-align: center;
+    font-size: 16px;
+}
+
+#footnote {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+}
